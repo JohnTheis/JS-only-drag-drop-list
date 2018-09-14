@@ -1,0 +1,50 @@
+<style>
+.r58-sortable {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+    .r58-sortable li {
+        width: 100%;
+        z-index: 99;
+    }
+
+    .r58-sortable li#sortableShadow {
+        opacity: 0.6;
+        z-index: 1;
+    }
+
+    .r58-sortable li span {
+        display: block;
+        padding: 20px;
+        margin-bottom: 10px;
+        color: #fff;
+        background: #c2c2c2;
+    }
+
+    .r58-sortable ul {
+        list-style: none;
+        padding: 0;
+        margin-left: 40px;
+    }
+</style>
+
+<ul id="r58-sortable" class="r58-sortable">
+    <li><span>Item 1</span></li>
+    <li><span>Item 2</span></li>
+    <li><span>Item 3</span>
+        <!-- <ul>
+            <li><span>Sub item 1</span></li>
+            <li><span>Sub item 2</span></li>
+            <li><span>Sub item 3</span></li>
+        </ul> -->
+    </li>
+    <li><span>Item 4</span></li>
+    <li><span>Item 5</span></li>
+    <li><span>Item 6</span></li>
+    <li><span>Item 7</span></li>
+</ul>
+
+
+<script src="./sortable.js"></script>
